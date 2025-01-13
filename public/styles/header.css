@@ -1,6 +1,7 @@
 /* Header styles */
 header {
   width: 100%; /* 100% width of the parent container */
+  height: 400px;
   background-color: #F3B136; /* Different background color than the nav and body */
   display: flex;
   flex-direction: column;
