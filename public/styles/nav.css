@@ -6,6 +6,9 @@ nav {
   color: #FFFFFF;
   padding: 0 1.5em;
   box-sizing: border-box; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -13,3 +16,8 @@ nav span {
   font-family: 'Bungee', cursive;
 }
 
+#content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
