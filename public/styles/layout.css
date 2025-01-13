@@ -25,3 +25,10 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ /* Main content styles */
+main {
+  width: 90%; /* 90% of the width of its parent element */
+  margin: 0 auto; /* Centers the main element horizontally */
+  background-color: inherit; /* Same background color as the body */
+}
