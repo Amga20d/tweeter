@@ -1,0 +1,35 @@
+/* Header styles */
+header {
+  width: 100%; /* 100% width of the parent container */
+  background-color: #F3B136; /* Different background color than the nav and body */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px 0;
+  background-image: url('../images/asfalt-light.png');
+}
+
+/* Avatar styles */
+header div:first-of-type {
+  display: flex;
+  justify-content: center; /* Center the avatar horizontally */
+  align-items: center; /* Center the avatar vertically */
+}
+
+header img {
+  border-radius: 50%; /* Makes the avatar circular */
+  width: 150px;
+  height: 150px;
+}
+
+/* Name styles */
+header div:last-of-type {
+  text-align: center; /* Center the name below the avatar */
+}
+
+header h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
