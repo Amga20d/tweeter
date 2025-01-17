@@ -47,3 +47,7 @@
 .new-tweet output.counter {
   font-weight: bold;
 }
+
+.new-tweet output.counter.invalid {
+   color: red;
+}
