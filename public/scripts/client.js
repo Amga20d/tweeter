@@ -63,6 +63,20 @@ $(document).ready(function() {
   $('form').on('submit', function(event) {
     event.preventDefault();
 
+    // Get the tweet text
+    const tweetText = $('#tweet-text').val().trim();
+
+    // Validate the tweet text
+    if (tweetText === "") {
+      alert("Tweet content cannot be empty!");
+      return;
+    }
+
+    if (tweetText.length > 140) {
+      alert("Tweet content exceeds the 140 character limit!");
+      return;
+    }
+
     // Serialize the form data
     const serializedData = $(this).serialize();
     console.log('Serialized Data:', serializedData);
