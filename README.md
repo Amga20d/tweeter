@@ -2,7 +2,7 @@
 Welcome to the Tweeter project! This is a full-stack web application inspired by Twitter, allowing users to create and share tweets. It's built using HTML, CSS, JavaScript, jQuery, AJAX, Node.js, and Express.
 
 ## Final Product
-[Main Page](public/images/1.Main Page.PNG)
+!["Main Page"](public/images/1.Main Page.PNG)
 
 ## Getting Started
 
