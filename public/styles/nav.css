@@ -54,6 +54,6 @@ nav {
 
 @media (max-width: 767px) {
   nav {
-    display: none; /* Hide the nav bar on mobile */
+    display: none; 
   }
 }

@@ -40,7 +40,7 @@ $(document).ready(function() {
       // Call createTweetElement for each tweet
       const $tweetElement = createTweetElement(tweet);
 
-      // Append the returned jQuery object to the #tweets-container
+      // Prepend the returned jQuery object to the #tweets-container
       $('#tweets-container').prepend($tweetElement);
     });
   };
