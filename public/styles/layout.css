@@ -1,4 +1,4 @@
-/*
+/* 
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
@@ -19,7 +19,7 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans 3', sans-serif;
-  padding-top: 120px;
+  
 }
 
 /*
@@ -29,6 +29,27 @@ body {
  /* Main content styles */
 main {
   width: 90%; /* 90% of the width of its parent element */
-  margin: 0 auto; /* Centers the main element horizontally */
+  margin : 0 auto; /* Centers the main element horizontally */
   background-color: inherit; /* Same background color as the body */
+  display: flex;
+  flex-direction: column;
+  }
+
+
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please */
+
+
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    padding-top: 120px;
+  }
 }

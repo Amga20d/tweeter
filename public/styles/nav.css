@@ -13,8 +13,34 @@ nav {
   top: 0;
 }
 
+.main-icon {
+  font-size: larger;
+  font-family: 'Bungee', cursive;
+}
+#content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-family: 'Source Sans 3', sans-serif;
+}
 
-nav span {
+nav {
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding: 0 1.5em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.main-icon {
+  font-size: larger;
   font-family: 'Bungee', cursive;
 }
 
@@ -22,4 +48,12 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: large;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+@media (max-width: 767px) {
+  nav {
+    display: none; /* Hide the nav bar on mobile */
+  }
 }

@@ -1,4 +1,4 @@
-article.tweet {
+/* article.tweet {
   border: 1px solid #000000;
   padding: 15px;
   margin-top: 20px;
@@ -71,4 +71,90 @@ article.tweet footer .icon {
 article.tweet footer .icon:hover {
   color: #f8cf19;
 
+} */
+
+
+article.tweet {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #f4f1ec !important;
+  transition: box-shadow 0.3s ease;
+}
+
+article.tweet:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+article.tweet .tweet-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #f4f1ec;
+  height: 150px;
+  width: 100%;
+  position: static;
+}
+
+article.tweet .tweet-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+article.tweet .tweet-header h2 {
+  font-size: 25px;
+  margin: 0 10px 0 0;
+  color: #000;
+}
+
+article.tweet .tweet-header .username {
+  margin-left: auto;
+  color: #555;
+  justify-self: end;
+  font-size: 20px;
+}
+
+article.tweet p {
+  margin: 10px 0;
+}
+
+article.tweet hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 10px 0;
+}
+
+article.tweet footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article.tweet footer .tweet-time {
+  color: #555;
+}
+
+article.tweet footer .icon-container {
+  display: flex;
+}
+
+article.tweet footer .icon {
+  margin-left: 10px;
+  color: #1da1f2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+article.tweet footer .icon:hover {
+  color: #f8cf19;
+}
+
+@media (min-width: 768px) {
+  #tweets-container {
+    width: calc(100% - 320px); /* Adjust width considering header's width and margin */
+    margin-left: 320px; /* Align it next to the header */
+  }
 }

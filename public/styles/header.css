@@ -1,5 +1,5 @@
 
-header {
+/* header {
   width: 100%; 
   height: 400px;
   background-color: #F3B136; 
@@ -31,4 +31,50 @@ header h2 {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 24px;
   color: #ffffff;
+} */
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: #F3B136;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-image: url('../images/asfalt-light.png');
+  
 }
+
+header div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+header div:last-of-type {
+  text-align: center;
+}
+
+header h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  header {
+    width: 300px; /* Adjust the width as needed for the box on the left side */
+    height: 300px; /* Adjust the height as needed */
+    position: fixed;
+    left: 50px;
+    top: 150px; /* Adjust top based on nav height */
+    right: 50px;  }
+}
+
