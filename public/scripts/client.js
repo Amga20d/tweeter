@@ -88,12 +88,13 @@ $(document).ready(function() {
       data: serializedData,
       success: function(response) {
         console.log('Tweet successfully submitted:', response);
+        
         // Reload tweets after successful submission
         loadTweets();
 
         // Optional: Clear the form after successful submission
         $('form')[0].reset();
-        $('.counter').text('140');
+        $('#tweet-text').trigger('input'); // Trigger the input event to update the counter
       },
       error: function(error) {
         console.error('Error submitting tweet:', error);
