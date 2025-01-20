@@ -1,8 +1,8 @@
-# Tweeter Project
+# Tweeter
+Welcome to the Tweeter project! This is a full-stack web application inspired by Twitter, allowing users to create and share tweets. It's built using HTML, CSS, JavaScript, jQuery, AJAX, Node.js, and Express.
 
-Tweeter is a simple, single-page Twitter clone.
-
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+## Final Product
+![Main Page](public/images/1.Main Page.PNG)
 
 ## Getting Started
 
